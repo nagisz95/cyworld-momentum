@@ -1,0 +1,12 @@
+.miniHpFooter {
+    position: relative;
+}
+.footerDeco {
+    position: absolute;
+    bottom: -30px;
+    right: -60px;
+
+}
+.footerDecoImg {
+    width: 130px;
+}

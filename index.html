@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="icon" href="img/basketball.png" /> -->
+    <link rel="icon" href="img/linkicon.png" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Hello!</title>
   </head>
@@ -20,25 +20,74 @@
             <h2 class="clockDate"></h2>
             <h2 class="clockTime"></h2>
           </div>
+          <div class="music">
+            <audio controls src="audio/Y.mp3"></audio>
+            <div class="musicBtn">
+              <div class="play"><i class="fa-solid fa-play"></i></div>
+              <div class="stop"><i class="fa-solid fa-pause"></i></div>
+            </div>
+          </div>
         </header>
         <div class="userInfo">
           <img class="userInfoImg" src="img/profilepic.jpeg" />
           <h2 class="userInfoGreetings">오늘도 너무 멋져! >_< ♡</h2>
           <h2 class="userInfoName"></h2>
         </div>
-        <div class="todoWrapper">
+        <div class="contentsWrapper">
           <form class="todoForm">
             <label class="todoLabel">🍓 오늘 해야 할 일은?</label>
             <input class="todoInput" type="text" placeholder="여기에 입력해 봐!" required />
           </form>
           <ul class="todoUl"></ul>
-          .
+          <div class="contents">
+            <h2 class="contentsH2">⭐️ 즐겨찾기</h2>
+            <ul class="contentsMenu">
+              <li class="contentsList">
+                <a target="_blank" href="https://nomadcoders.co/"><img src="img/icon1.png"></a>
+                <span>코딩 공부하잣 -,.-</span>
+              </li>
+              <li class="contentsList">
+                <a target="_blank" href="https://www.pinterest.jp/"><img src="img/icon2.png"></a>
+                <span>심심하묜 봐...</span>
+              </li>
+              <li class="contentsList">
+                <a target="_blank" href="https://qiita.com/"><img src="img/icon3.png"></a>
+                <span>정보의 바다얌~</span>
+              </li>
+              <li class="contentsList">
+                <a target="_blank" href="https://music.youtube.com/"><img src="img/icon4.png"></a>
+                <span>Music is my life 🎵</span>
+              </li>
+              <li class="contentsList">
+                <a target="_blank" href="https://www.sanrio.co.jp/"><img src="img/icon5.png"></a>
+                <span>기여븐 산리오</span>
+              </li>
+              <li class="contentsList">
+                <a target="_blank" href="https://www.netflix.com/browse"><img src="img/icon6.png"></a>
+                <span>영화나 볼까??</span>
+              </li>
+              <li class="contentsList">
+                <a target="_blank" href="https://www.farfetch.com/jp"><img src="img/icon7.png"></a>
+                <span>쇼핑 좋당 +_+</span>
+              </li>
+              <li class="contentsList">
+                <a target="_blank" href="https://slamdunk-movie.jp/"><img src="img/icon8.png"></a>
+                <span>장래희망은 정대만마눌</span>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="weather">
           <h2 class="weatherH2"></h2>
-          <img src="" class="weatherImg">
+          <img src="" class="weatherImg" />
         </div>
+        <footer class="miniHpFooter">
+        <div class="footerDeco">
+          <img class="footerDecoImg" src="img/footerImg.png" alt="" />
+        </div>
+      </footer>
       </div>
+      
     </main>
     <!-- login form -->
     <div class="login">
@@ -58,5 +107,6 @@
     <script src="src/clock.js"></script>
     <script src="src/todo.js"></script>
     <script src="src/weather.js"></script>
+    <script src="src/music.js"></script>
   </body>
 </html>

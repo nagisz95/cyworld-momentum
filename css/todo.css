@@ -1,4 +1,4 @@
-.todoWrapper{
+.contentsWrapper{
     margin-top: 30px;
     position: relative;
     width: 70%;
@@ -10,6 +10,9 @@
 }
 .todoLabel{
     font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 .todoInput{
     width: 100%;
@@ -33,17 +36,6 @@
     align-items: center;
     margin: 10px 0;
 }
-/* .todoUl::-webkit-scrollbar{
-    width: 2px;
-}
-.todoUl::-webkit-scrollbar-thumb {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #d31b58), to(salmon));
-    background: linear-gradient(to bottom, #d31b5b 50%, pink);
-    border-radius: 2px;
-  }
-  .todoUl::-webkit-scrollbar-track {
-    background: #dcdcdc;
-  } */
 .todoUl li span{
     font-size: 22px;
 }
@@ -51,6 +43,7 @@
     border: none;
     background: none;
     transition: all 0.2s;
+    cursor: pointer;
 }
 .todoUl li button:hover{
     transform: scale(1.4);
@@ -60,4 +53,39 @@
     position: absolute;
     bottom: 20px;
     width: 650px;
+}
+.contents{
+    position: absolute;
+    margin-top: 20px;
+    padding: 20px;
+    bottom: 30px;
+    width: 100%;
+}
+.contentsH2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contentsMenu{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px 0;
+}
+.contentsList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s ease-in-out;
+}
+.contentsList img{
+    width: 50px;
+}
+.contentsList span{
+    font-size: 18px;
+}
+.contentsList:hover{
+    transform: translateY(-10px);
 }
