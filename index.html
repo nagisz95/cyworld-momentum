@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="icon" href="img/basketball.png" /> -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Hello!</title>
+  </head>
+  <body>
+    <main class="miniHpWrapper">
+      <div class="miniHp">
+        <header class="miniHpHeader">
+          <div class="headerDeco">
+            <img class="headerDecoImg" src="img/headerImg.png" alt="" />
+          </div>
+          <div class="clock">
+            <img src="img/clockImg.png" alt="" class="clockImg" />
+            <h2 class="clockDate"></h2>
+            <h2 class="clockTime"></h2>
+          </div>
+        </header>
+        <div class="userInfo">
+          <img class="userInfoImg" src="img/profilepic.jpeg" />
+          <h2 class="userInfoGreetings">오늘도 너무 멋져! >_< ♡</h2>
+          <h2 class="userInfoName"></h2>
+        </div>
+        <div class="todoWrapper">
+          <form class="todoForm">
+            <label class="todoLabel">🍓 오늘 해야 할 일은?</label>
+            <input class="todoInput" type="text" placeholder="여기에 입력해 봐!" required />
+          </form>
+          <ul class="todoUl"></ul>
+          .
+        </div>
+        <div class="weather">
+          <h2 class="weatherH2"></h2>
+          <img src="" class="weatherImg">
+        </div>
+      </div>
+    </main>
+    <!-- login form -->
+    <div class="login">
+      <img class="loginGreetingsImg" src="img/greetingsGif.gif" />
+      <h1 class="loginGreetingsText">
+        ㄷr시 만나서 반ㄱr워! <br />
+        당신의 이름은?
+      </h1>
+      <form class="loginForm">
+        <input class="loginUserInput" type="text" required placeholder="이름을 입력하고 enter" />
+      </form>
+    </div>
+    <!-- script -->
+    <script src="https://kit.fontawesome.com/019c2e3d78.js" crossorigin="anonymous"></script>
+    <script src="src/background.js"></script>
+    <script src="src/login.js"></script>
+    <script src="src/clock.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/weather.js"></script>
+  </body>
+</html>

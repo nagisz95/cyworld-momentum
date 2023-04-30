@@ -1,0 +1,23 @@
+.userInfo{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 10px;
+}
+.userInfoImg{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 30px;
+    border: 1px dashed pink;
+    margin-bottom: 20px;
+}
+.userInfoGreetings{
+    font-size: 20px;
+}
+.userInfoName{
+    font-size: 35px;
+    font-weight: 700;
+}

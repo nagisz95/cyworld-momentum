@@ -1,0 +1,63 @@
+.todoWrapper{
+    margin-top: 30px;
+    position: relative;
+    width: 70%;
+}
+.todoForm{
+    margin-top: 20px;
+    padding: 20px;
+    border-bottom: 1px dashed pink;
+}
+.todoLabel{
+    font-size: 30px;
+}
+.todoInput{
+    width: 100%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 20px;
+}
+.todoInput::placeholder{
+    font-family: 'Dongle', sans-serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.2);
+}
+.todoUl{
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 150px;
+}
+.todoUl li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+/* .todoUl::-webkit-scrollbar{
+    width: 2px;
+}
+.todoUl::-webkit-scrollbar-thumb {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #d31b58), to(salmon));
+    background: linear-gradient(to bottom, #d31b5b 50%, pink);
+    border-radius: 2px;
+  }
+  .todoUl::-webkit-scrollbar-track {
+    background: #dcdcdc;
+  } */
+.todoUl li span{
+    font-size: 22px;
+}
+.todoUl li button{
+    border: none;
+    background: none;
+    transition: all 0.2s;
+}
+.todoUl li button:hover{
+    transform: scale(1.4);
+}
+.todoGif{
+    margin-top: 20px;
+    position: absolute;
+    bottom: 20px;
+    width: 650px;
+}

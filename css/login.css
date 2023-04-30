@@ -1,0 +1,32 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginGreetingsImg{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.loginGreetingsText{
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.loginUserInput{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+.loginUserInput::placeholder{
+    font-family: 'Dongle', sans-serif;
+    font-size: 18px;
+}
+.loginUserInput:focus{
+    border-bottom: 1px solid #000;
+}
